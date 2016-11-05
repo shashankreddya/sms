@@ -19,7 +19,7 @@ public class CustomerRegDAO {
     private transient PreparedStatement preparedStatement;
     private transient ResultSet rset;
     private transient Statement statement;
-    private transient final List<String> emailList = new ArrayList<String>();
+    //private transient final List<String> emailList = new ArrayList<String>();
     public static final Logger LOG = Logger.getLogger(CustomerRegDAO.class);
 
     public String insertCustomerDetails(final CustomerRegVO cvo) {
